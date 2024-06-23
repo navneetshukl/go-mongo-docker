@@ -1,0 +1,6 @@
+mongosh -u admin -p password --authenticationDatabase admin
+
+use admin
+db.getUser("admin")
+
+use mydb                # database name
